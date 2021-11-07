@@ -16,8 +16,7 @@
     body
     {
     display:flex; flex-direction:column;
-    margin-left:10px;
-    margin-right:10px;
+  
     align-items: center;
     }
 
@@ -118,21 +117,11 @@ color:#99E2D0;
 .header
 {
 width:100%;
-min-height:70px;
+min-height:100px;
 background-image:url('../img/logo/ohmyfood@2x.svg');
-background-repeat:no-repeat; background-position:50% 50%; 
-}
+background-repeat:no-repeat; background-position:50% 30%; 
+flex-direction:column;
 
-/*-- SECTION 1 --*/
-
-.s1-conteneur
-{
-flex-direction:column;   
-align-items:center;
-width:100%;
-box-sizing: border-box;
-margin-bottom:5px; padding-bottom:30px;
-background-color: #f6f6f6;
 
     &__flag
     {
@@ -154,8 +143,23 @@ background-color: #f6f6f6;
     &__degrade
     {
     width:100%; height:5px;
+    margin-top:80px;
     background: linear-gradient(#cfcfcf, #eaeaea);
     }
+}
+
+/*-- SECTION 1 --*/
+
+.s1-conteneur
+{
+flex-direction:column;   
+align-items:center;
+width:100%;
+box-sizing: border-box;
+margin-bottom:5px; padding-bottom:30px;
+background-color: #f6f6f6;
+
+
 
     &__texte
     {
@@ -399,16 +403,22 @@ align-items:center;
 
     & i 
     {
-    cursor:pointer;
+    height:20px;
+    width:25px;
+    padding-top:5px;
+    font-weight:200;
+    background: white;  
+    transition:all .3s;
     }
 
-    & i:hover
+    & :hover
     {
     background:linear-gradient(#FF79DA, #9356DC);   
+    font-weight:900;
     -webkit-background-clip: text;
-    -webkit-text-fill-color:transparent;
-    font-weight:900;  
+    -webkit-text-fill-color:transparent;  
     }
+
 }
 
 .new
