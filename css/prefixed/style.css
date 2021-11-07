@@ -1,0 +1,88 @@
+/* ---------------------- */
+/* ---- CSS OHMYFOOD ---- */
+/* ---------------------- */
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mauve {
+  color: #9356DC;
+}
+
+.fushia {
+  color: #FF79DA;
+}
+
+.vert {
+  color: #99E2D0;
+}
+
+/*-- HEADER --*/
+.header {
+  width: 100%;
+  min-height: 80px;
+  background-image: url("../img/logo/ohmyfood.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+/*-- FOOTER --*/
+.footer {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #353535;
+  width: 100%;
+}
+
+.footer h2 {
+  font-family: Shrikhand;
+  font-size: 20px;
+  margin-left: 20px;
+  color: white;
+}
+
+.footer h3 {
+  font-family: Roboto;
+  font-style: thin;
+  font-size: 16px;
+  margin-left: 20px;
+  color: white;
+  line-height: 0.5;
+}
+
+.footer h3 a {
+  font-family: Roboto;
+  font-style: light;
+  color: white;
+  line-height: 0.5;
+  text-decoration: none;
+}
+
+.footer h3 i {
+  width: 30px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL21haW4uc2NzcyIsIi4uL3N0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSwyQkFBQTtBQUNBLDJCQUFBO0FBQ0EsMkJBQUE7QUFFQTtFQUVBLG9CQUFBO0VBQUEsb0JBQUE7RUFBQSxhQUFBO0VBQWMsNEJBQUE7RUFBQSw2QkFBQTtNQUFBLDBCQUFBO1VBQUEsc0JBQUE7RUFDZCxpQkFBQTtFQUNBLGtCQUFBO0FDQUE7O0FER0E7RUFFQSxvQkFBQTtFQUFBLG9CQUFBO0VBQUEsYUFBQTtFQUNBLFdBQUE7QUNEQTs7QURJQTtFQUVBLG9CQUFBO0VBQUEsb0JBQUE7RUFBQSxhQUFBO0FDRkE7O0FES0E7RUFFQSxjQUFBO0FDSEE7O0FETUE7RUFFQSxjQUFBO0FDSkE7O0FET0E7RUFFQSxjQUFBO0FDTEE7O0FEUUEsZUFBQTtBQUVBO0VBRUEsV0FBQTtFQUNBLGdCQUFBO0VBQ0EsaURBQUE7RUFDQSw0QkFBQTtFQUE2Qiw0QkFBQTtBQ043Qjs7QURTQSxlQUFBO0FBRUE7RUFFQSw0QkFBQTtFQUFBLDZCQUFBO01BQUEsMEJBQUE7VUFBQSxzQkFBQTtFQUNBLHlCQUFBO0VBQ0EsV0FBQTtBQ1JBOztBRFdBO0VBRUEsc0JBQUE7RUFBdUIsZUFBQTtFQUN2QixpQkFBQTtFQUNBLFlBQUE7QUNSQTs7QURXQTtFQUVBLG1CQUFBO0VBQW9CLGdCQUFBO0VBQWlCLGVBQUE7RUFDckMsaUJBQUE7RUFDQSxZQUFBO0VBQ0EsZ0JBQUE7QUNQQTs7QURVQTtFQUVBLG1CQUFBO0VBQW9CLGlCQUFBO0VBQ3BCLFlBQUE7RUFDQSxnQkFBQTtFQUNBLHFCQUFBO0FDUEE7O0FEVUE7RUFFQSxXQUFBO0FDUkEiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
