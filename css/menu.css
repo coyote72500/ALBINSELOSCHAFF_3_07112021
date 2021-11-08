@@ -1,6 +1,6 @@
-/* ------------------------ */
-/* ----- CSS OHMYFOOD :-moz-any-link--- */
-/* ------------------------ */
+/* ---------------------- */
+/* ---- CSS OHMYFOOD ---- */
+/* ---------------------- */
 @media screen and (min-width: 992px) {
   section {
     display: flex;
@@ -102,26 +102,17 @@ article a {
   background-image: url("../img/logo/ohmyfood@2x.svg");
   background-repeat: no-repeat;
   background-position: 50% 30%;
-  flex-direction: column;
-}
-.header__flag {
-  min-width: 100%;
-  height: 45px;
-  justify-content: center;
+  flex-direction: row;
   align-items: center;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  background-color: #eaeaea;
+  justify-content: flex-start;
 }
-.header__flag i {
-  width: 30px;
-  margin-bottom: 6px;
+.header__retour {
+  margin-bottom: 20px;
+  margin-left: 15px;
 }
-.header__degrade {
-  width: 100%;
-  height: 5px;
-  margin-top: 80px;
-  background: linear-gradient(#cfcfcf, #eaeaea);
+.header__retour a {
+  color: black;
+  text-decoration: none;
 }
 
 /*-- SECTION 1 --*/
@@ -133,6 +124,10 @@ article a {
   margin-bottom: 5px;
   padding-bottom: 30px;
   background-color: #f6f6f6;
+}
+.s1-conteneur__entete {
+  width: 100%;
+  object-fit: cover;
 }
 .s1-conteneur__texte {
   font-family: "Roboto", sans-serif;
@@ -244,21 +239,6 @@ article a {
   opacity: 100%;
 }
 
-.rond {
-  width: 25px;
-  height: 25px;
-  border-radius: 90px;
-  color: white;
-  background-color: #9356DC;
-  justify-content: center;
-  align-items: center;
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  justify-self: flex-start;
-  position: absolute;
-  left: -10px;
-}
-
 /*-- SECTION 3 --*/
 .s3-conteneur {
   flex-direction: column;
@@ -355,22 +335,6 @@ article a {
   -webkit-text-fill-color: transparent;
 }
 
-.new {
-  width: 80px;
-  height: 28px;
-  background-color: #99E2D0;
-  position: absolute;
-  right: 25px;
-  margin-top: 15px;
-  align-items: center;
-  justify-content: center;
-  color: #008766;
-  font-size: 15px;
-  font-weight: 500;
-  font-family: "Roboto", sans-serif;
-  border-radius: 2px;
-}
-
 /*-- FOOTER --*/
 .footer {
   flex-direction: column;
@@ -405,4 +369,4 @@ article a {
   width: 30px;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=menu.css.map */

@@ -1,6 +1,6 @@
-/* ------------------------ */
-/* ----- CSS OHMYFOOD :-moz-any-link--- */
-/* ------------------------ */
+/* ---------------------- */
+/* ---- CSS OHMYFOOD ---- */
+/* ---------------------- */
 
 
 @media screen and (min-width: 992px)
@@ -126,31 +126,19 @@ width:100%;
 min-height:100px;
 background-image:url('../img/logo/ohmyfood@2x.svg');
 background-repeat:no-repeat; background-position:50% 30%; 
-flex-direction:column;
+flex-direction:row;
+align-items:center;
+justify-content:flex-start;
 
-
-    &__flag
+    &__retour
     {
-    min-width:100%;
-    height:45px;
-    justify-content:center;
-    align-items:center;
-    font-family: 'Roboto', sans-serif;
-    font-weight:400;
-    background-color: #eaeaea;
-
-        i
+    margin-bottom:20px;
+    margin-left:15px;
+        a 
         {
-        width:30px;
-        margin-bottom:6px;
+        color:black;
+        text-decoration:none;
         }
-    }
-
-    &__degrade
-    {
-    width:100%; height:5px;
-    margin-top:80px;
-    background: linear-gradient(#cfcfcf, #eaeaea);
     }
 }
 
@@ -165,7 +153,11 @@ box-sizing: border-box;
 margin-bottom:5px; padding-bottom:30px;
 background-color: #f6f6f6;
 
-
+    &__entete
+    {
+    width:100%;
+    object-fit:cover;
+    }
 
     &__texte
     {
@@ -297,20 +289,7 @@ font-family:  'Roboto', sans-serif;
 
 }
 
-.rond
-{
-width:25px; height:25px;
-border-radius: 90px;
-color:white;
-background-color: #9356DC;
-justify-content: center;
-align-items: center;
-font-family:  'Roboto', sans-serif;
-font-size: 14px;
-justify-self: flex-start;
-position:absolute;
-left:-10px;
-}
+
 
 /*-- SECTION 3 --*/
 
@@ -427,21 +406,7 @@ align-items:center;
 
 }
 
-.new
-{
-width:80px;
-height:28px;
-background-color: #99E2D0;
-position:absolute;
-right:25px; margin-top:15px;
-align-items: center;
-justify-content: center;
-color:#008766;
-font-size:15px;
-font-weight: 500;
-font-family:  'Roboto', sans-serif;
-border-radius: 2px;
-}
+
 
 /*-- FOOTER --*/
 
