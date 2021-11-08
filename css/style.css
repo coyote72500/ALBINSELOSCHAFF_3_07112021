@@ -1,5 +1,5 @@
 /* ------------------------ */
-/* ----- CSS OHMYFOOD :-moz-any-link--- */
+/* ----- CSS OHMYFOOD ----- */
 /* ------------------------ */
 @media screen and (min-width: 992px) {
   section {
@@ -90,7 +90,7 @@
   color: #99E2D0;
 }
 
-article a {
+a {
   text-decoration: none;
   color: black;
 }
