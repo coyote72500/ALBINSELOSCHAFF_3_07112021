@@ -90,7 +90,7 @@
   color: #99E2D0;
 }
 
-a {
+a, .lien {
   text-decoration: none;
   color: black;
 }
