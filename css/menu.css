@@ -102,9 +102,9 @@ a {
   background-image: url("../img/logo/ohmyfood@2x.svg");
   background-repeat: no-repeat;
   background-position: 50% 30%;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
 .header__retour {
   margin-bottom: 20px;
@@ -121,9 +121,8 @@ a {
   align-items: center;
   width: 100%;
   box-sizing: border-box;
-  margin-bottom: 5px;
-  padding-bottom: 30px;
   background-color: #f6f6f6;
+  position: relative;
 }
 .s1-conteneur__entete {
   width: 100%;
@@ -156,6 +155,38 @@ a {
   align-items: center;
   justify-content: center;
   width: 100%;
+}
+.s1-conteneur__haut {
+  position: absolute;
+  flex-direction: row;
+  bottom: 40px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #f6f6f6;
+  min-height: 10%;
+  border-radius: 40px 40px 0px 0px;
+}
+.s1-conteneur__nom {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #f6f6f6;
+  min-height: 40px;
+}
+.s1-conteneur__nom h2 {
+  font-family: "Shrikhand", cursive;
+  font-size: 32px;
+  font-weight: 100;
+  color: black;
+  margin: 0;
+  margin-left: 20px;
+  align-self: flex-end;
+}
+.s1-conteneur__nom i {
+  margin-right: 40px;
+  color: #101010;
 }
 
 .btn-explorer {
