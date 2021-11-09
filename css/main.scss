@@ -416,6 +416,8 @@ align-items:center;
     font-weight:200;
     background: white;  
     transition:all .3s;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:#101010;
     }
 
     & :hover
@@ -424,6 +426,7 @@ align-items:center;
     font-weight:900;
     -webkit-background-clip: text;
     -webkit-text-fill-color:transparent;  
+    transition:all .3s;
     }
 
 }
