@@ -141,22 +141,22 @@
   width: 30px;
   height: 30px;
   border-radius: 100%;
-  margin: 20px;
+  margin: 15px;
 }
 
 .violet {
-  animation: bounce 1.2s 0.2s linear infinite;
+  animation: bounce 0.8s 0.2s linear infinite;
   background-color: var(--violet);
 }
 
 .vert {
-  animation: bounce 1.2s 0.5s linear infinite;
+  animation: bounce 0.8s 0.2s linear infinite;
   background-color: var(--vert);
   animation-delay: 0.4s;
 }
 
 .fushia {
-  animation: bounce 1.2s 0.5s linear infinite;
+  animation: bounce 0.8s 0.2s linear infinite;
   background-color: var(--fushia);
   animation-delay: 0.6s;
 }
@@ -167,12 +167,12 @@
     filter: blur(0px);
   }
   25% {
-    transform: scale(0.6);
-    filter: blur(3px);
+    transform: scale(0.8);
+    filter: blur(0.8px);
   }
   75% {
-    filter: blur(3px);
-    transform: scale(1.4);
+    filter: blur(0.8px);
+    transform: scale(1.2);
   }
 }
 a, .lien {
@@ -264,7 +264,8 @@ a, .lien {
   transition-duration: 0.25s;
 }
 .btn-explorer:hover {
-  background: linear-gradient(#ff79da, #9356dc);
+  background: linear-gradient(#ff79d9, #9256dc);
+  filter: brightness(1.1);
   box-shadow: 1px 5px 5px #bebebe;
   transition-duration: 0.25s;
 }
