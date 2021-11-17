@@ -230,6 +230,7 @@ main {
 }
 .s2-conteneur__ligne {
   min-width: 45px;
+  max-width: 45px;
   min-height: 2px;
   background-color: #99E2D0;
 }
@@ -248,13 +249,16 @@ main {
   background-color: white;
   border-radius: 15px;
   box-shadow: 1px 3px 4px #e6e6e6;
-  overflow: hidden;
-  text-overflow: ellipsis;
   cursor: pointer;
+  animation: openbox 0.8s linear;
+}
+.s2-conteneur__box-menu:hover {
+  white-space: nowrap;
 }
 .s2-conteneur__box-menu:hover .s2-conteneur__box-menu-valide {
   width: 60px;
   transition-duration: 0.3s;
+  overflow: hidden;
 }
 .s2-conteneur__box-menu:hover .s2-conteneur__box-menu-valide i {
   animation: tourne 0.3s linear;
@@ -270,6 +274,25 @@ main {
     transform: rotate3d(0, 0, 1, 360deg);
   }
 }
+@keyframes openbox {
+  0% {
+    min-height: 0px;
+    max-height: 0px;
+    opacity: 0%;
+  }
+  2% {
+    min-height: 30px;
+    max-height: 30px;
+  }
+  50% {
+    opacity: 30%;
+  }
+  100% {
+    min-height: 70px;
+    max-height: 70px;
+    opacity: 100%;
+  }
+}
 .s2-conteneur__box-menu-text {
   flex-direction: column;
   align-items: flex-start;
@@ -280,20 +303,21 @@ main {
   min-height: 60px;
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
   flex: 1;
 }
 .s2-conteneur__box-menu-text h4 {
   margin: 0px;
   font-size: 18px;
+  line-height: normal;
+  width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
 }
 .s2-conteneur__box-menu-text h5 {
   margin: 0px;
   font-weight: 200;
   font-size: 14px;
+  width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -332,6 +356,32 @@ main {
   justify-content: center;
   background-color: white;
   border-radius: 90px;
+}
+
+.entrees {
+  flex-direction: column;
+  width: 100%;
+  min-height: 350px;
+}
+
+.plats {
+  flex-direction: column;
+  width: 100%;
+  min-height: 350px;
+}
+
+.desserts {
+  flex-direction: column;
+  width: 100%;
+  min-height: 350px;
+}
+
+.delais1 {
+  animation-delay: 0.2s;
+}
+
+.delais2 {
+  animation-delay: 0.4s;
 }
 
 .btn-commander {
