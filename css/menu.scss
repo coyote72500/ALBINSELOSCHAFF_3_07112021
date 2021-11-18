@@ -361,7 +361,7 @@ background-color: #f6f6f6; resize:none; overflow:hidden;
 
             80%
             {
-            opacity:10%;
+            opacity:20%;
             }
 
             100%
@@ -429,6 +429,11 @@ background-color: #f6f6f6; resize:none; overflow:hidden;
         overflow:hidden;
         text-overflow:ellipsis;
         flex:1;    
+
+        @media screen and (max-width: 767px)
+        {
+        width:50%;   
+        }
         
             
     
@@ -440,6 +445,7 @@ background-color: #f6f6f6; resize:none; overflow:hidden;
             width:100%;
             overflow:hidden;
             text-overflow:ellipsis; 
+            white-space:nowrap;
             }
 
             h5 

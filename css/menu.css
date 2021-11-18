@@ -283,7 +283,7 @@ main {
     opacity: 0%;
   }
   80% {
-    opacity: 10%;
+    opacity: 20%;
   }
   100% {
     opacity: 100%;
@@ -339,6 +339,11 @@ main {
   text-overflow: ellipsis;
   flex: 1;
 }
+@media screen and (max-width: 767px) {
+  .s2-conteneur__box-menu-text {
+    width: 50%;
+  }
+}
 .s2-conteneur__box-menu-text h4 {
   margin: 0px;
   font-size: 18px;
@@ -346,6 +351,7 @@ main {
   width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .s2-conteneur__box-menu-text h5 {
   margin: 0px;
