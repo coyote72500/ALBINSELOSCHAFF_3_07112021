@@ -351,7 +351,7 @@ background-color: #f6f6f6; resize:none; overflow:hidden;
         {
             0%
             {
-            opacity:0%; top:60px; margin-top:60px;
+            opacity:0%; top:40px; margin-top:40px; 
             }
 
             30%
@@ -366,57 +366,10 @@ background-color: #f6f6f6; resize:none; overflow:hidden;
 
             100%
             {
-            opacity:100%; top:15px; margin-top:15px;
+            opacity:100%; top:15px; margin-top:15px; 
             }
         }
-
-        @keyframes openbox2
-        {
-            0%
-            {
-            opacity:0%; top:60px; margin-top:60px;
-            }
-
-            50%
-            {
-            opacity:0%;
-            }
-
-            70%
-            {
-            opacity:10%;
-            }
-
-            100%
-            {
-            opacity:100%; top:15px; margin-top:15px;
-            }
-        }
-
-        @keyframes openbox3
-        {
-            0%
-            {
-            opacity:0%; top:60px; margin-top:60px;
-            }
-
-            55%
-            {
-            opacity:0%;
-            }
-
-            70%
-            {
-            opacity:10%;
-            }
-
-            100%
-            {
-            opacity:100%; top:15px; margin-top:15px;
-            }
-        }
-
-        
+    
 
         &-text
         {
@@ -451,7 +404,7 @@ background-color: #f6f6f6; resize:none; overflow:hidden;
             h5 
             {
             margin:0px;
-            font-weight:200;
+            font-weight:300;
             font-size:14px;
             width:100%;
             overflow:hidden;
@@ -536,12 +489,12 @@ animation: openbox .8s linear;
 
 .delais1
 {
-animation: openbox2 1.1s linear;
+animation: openbox 1.1s linear;
 }
 
 .delais2
 {
-animation: openbox3 1.3s linear;
+animation: openbox 1.3s linear;
 }
 
 .btn-commander
