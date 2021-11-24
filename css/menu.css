@@ -246,6 +246,7 @@ main {
   min-height: 70px;
   max-height: 70px;
   margin-top: 15px;
+  padding-top: 2px;
   background-color: white;
   border-radius: 15px;
   box-shadow: 1px 3px 4px #e6e6e6;
@@ -313,7 +314,7 @@ main {
   font-size: 18px;
   line-height: normal;
   width: 100%;
-  overflow: hidden;
+  overflow: visible;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
