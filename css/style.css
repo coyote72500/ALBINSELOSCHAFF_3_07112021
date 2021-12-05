@@ -122,12 +122,6 @@
     height: 0%;
   }
 }
-:root {
-  --violet:#9356DC;
-  --vert: #99E2D0;
-  --fushia: #FF79DA;
-}
-
 #loader {
   display: flex;
   justify-content: center;
@@ -178,6 +172,12 @@
 a, .lien {
   text-decoration: none;
   color: black;
+}
+
+:root {
+  --violet:#9356DC;
+  --vert: #99E2D0;
+  --fushia: #FF79DA;
 }
 
 /*-- HEADER --*/

@@ -1,0 +1,30 @@
+/*-- HEADER --*/
+
+.header {
+width:100%;
+min-height:100px;
+background-image:url('../img/logo/ohmyfood@2x.svg');
+background-repeat:no-repeat; background-position:50% 30%; 
+flex-direction:column;
+
+    &__flag {
+    min-width:100%;
+    height:45px;
+    justify-content:center;
+    align-items:center;
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    background-color: #eaeaea;
+
+        i {
+        width:30px;
+        margin-bottom:6px;
+        }
+    }
+
+    &__degrade {
+    width:100%; height:5px;
+    margin-top:80px;
+    background: linear-gradient(#cfcfcf, #eaeaea);
+    }
+}
